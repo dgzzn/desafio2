@@ -11,7 +11,7 @@ formulario.addEventListener('submit', function (e) {
     tabela.innerHTML += `
                 <tr>
                     <td scope="row">${nome.value}</td>
-                    <td>${preco.value}</td>
+                    <td>R$ ${preco.value}</td>
                     <td>${quantidade.value}</td>
                     <td>${codigo.value}</td>                   
                 </tr>
